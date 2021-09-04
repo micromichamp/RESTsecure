@@ -27,7 +27,7 @@
 
 ##### 🔍 Compare     
 
-| ~         | Sureness | Shiro | Spring Security |
+| ~         | RESTsecure | Shiro | Spring Security |
 | ---       | ---      | ---   | --- |
 | **Multi Framework Support**  | support      | support need modify   | not support |
 | **REST API** | support | support need modify   | support |
