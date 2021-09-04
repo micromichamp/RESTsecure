@@ -1,28 +1,20 @@
 <p align="center">
-  <a href="https://github.com/usthe/sureness">
-    <img alt="sureness" src="./docs/_media/brand128.svg">
+  <a href="https://github.com/micromichamp/RESTsecure">
+    RESTsecure
   </a>
 </p>
 
-# <font size="14p">Sureness</font> <font size="5p">  | [中文文档](README_CN.md)</font>
+# <font size="14p">RESTsecure</font> <font size="5p">  | (README_CN.md)</font>
 
 > A simple and efficient jvm security framework that focus on the protection of REST API.
 
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![Maven](https://img.shields.io/badge/Maven%20Central-1.0.4-blue.svg)](https://search.maven.org/artifact/com.usthe.sureness/sureness-core)
 ![GitHub pull request check contexts](https://img.shields.io/github/status/contexts/pulls/dromara/sureness/8?label=pull%20checks)
-[![Gitter](https://img.shields.io/gitter/room/usthe/sureness?label=sureness&color=orange&logo=gitter&logoColor=red)](https://gitter.im/usthe/sureness)
-![GitHub Release Date](https://img.shields.io/github/release-date/dromara/sureness?color=blue&logo=figshare&logoColor=red)
-[![star](https://gitee.com/dromara/sureness/badge/star.svg?theme=gray)](https://gitee.com/dromara/sureness/stargazers)
-[![star](https://img.shields.io/github/stars/dromara/sureness?style=social)](https://github.com/dromara/sureness)
 
-<a href="https://www.producthunt.com/posts/sureness?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-sureness" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=287707&theme=light" alt="sureness - Jvm security framework that focus on protection of rest api | Product Hunt"/></a>
+##<font color="green">Introduction</font>
 
-**Home Page: [usthe.com/sureness](https://usthe.com/sureness) | [su.usthe.com](https://su.usthe.com/)**
-
-## 🎡 <font color="green">Introduction</font>
-
-> [Sureness](https://github.com/dromara/sureness) is a simple and efficient open-source security framework that focus on the protection of REST API.  
+> RESTsecure (cloned from Sureness) is a simple and efficient open-source security framework that focus on the protection of REST API.  
 > Provide authentication and authorization, based on RBAC.   
 > No specific framework dependency (supports Javalin, Spring Boot, Quarkus, Ktor, Micronaut and more).    
 > Supports dynamic modification of permissions.   
@@ -31,7 +23,7 @@
 > High performance with Dictionary Matching Tree.      
 > Good extension interface, demos and documentation.
 
-> Sureness has a sensible default configuration, is easy to customize, and is not couple to any one framework, which enables developers to quickly and safely protect their projects in multiple scenarios.
+> RESTsecure has a sensible default configuration, is easy to customize, and is not couple to any one framework, which enables developers to quickly and safely protect their projects in multiple scenarios.
 
 ##### 🔍 Compare     
 
@@ -60,19 +52,19 @@ Detail see [Benchmark Test](https://github.com/tomsun28/sureness-shiro-spring-se
 
 ##### ✌ Framework Sample Support  
 
-- [x] Sureness integration **Spring Boot** sample(configuration file scheme) [sample-bootstrap](sample-bootstrap)   
-- [x] Sureness integration **Spring Boot** sample(database scheme) [sample-tom](sample-tom)  
-- [x] Sureness integration **Quarkus** sample [sample-quarkus](samples/quarkus-sureness)  
-- [x] Sureness integration **Javalin** sample [sample-javalin](samples/javalin-sureness)    
-- [x] Sureness integration **Ktor** sample [sample-ktor](samples/ktor-sureness)   
-- [x] Sureness integration **Spring Webflux** sample [sample-spring-webflux](samples/spring-webflux-sureness)
-- [x] Sureness integration **Micronaut** sample [sample-micronaut](samples/micronaut-sureness)
-- [x] Sureness integration **Jfinal** sample [sample-jfinal](samples/jfinal-sureness)
-- [x] Sureness integration **Solon** sample [sample-solon](samples/solon-sureness)
-- [x] Sureness integration **Spring Gateway** sample [sample-spring-gateway](samples/spring-gateway-sureness)  
-- [x] Sureness integration **Zuul** sample [sample-zuul](samples/zuul-sureness)    
-- [x] Sureness integration Session sample [sureness-session](samples/sureness-session)    
-- [x] Sureness integration Redis Session cache sample [sureness-redis-session](samples/sureness-redis-session)  
+- [x] RESTsecure integration **Spring Boot** sample(configuration file scheme) [sample-bootstrap](sample-bootstrap)   
+- [x] RESTsecure integration **Spring Boot** sample(database scheme) [sample-tom](sample-tom)  
+- [x] RESTsecure integration **Quarkus** sample [sample-quarkus](samples/quarkus-sureness)  
+- [x] RESTsecure integration **Javalin** sample [sample-javalin](samples/javalin-sureness)    
+- [x] RESTsecure integration **Ktor** sample [sample-ktor](samples/ktor-sureness)   
+- [x] RESTsecure integration **Spring Webflux** sample [sample-spring-webflux](samples/spring-webflux-sureness)
+- [x] RESTsecure integration **Micronaut** sample [sample-micronaut](samples/micronaut-sureness)
+- [x] RESTsecure integration **Jfinal** sample [sample-jfinal](samples/jfinal-sureness)
+- [x] RESTsecure integration **Solon** sample [sample-solon](samples/solon-sureness)
+- [x] RESTsecure integration **Spring Gateway** sample [sample-spring-gateway](samples/spring-gateway-sureness)  
+- [x] RESTsecure integration **Zuul** sample [sample-zuul](samples/zuul-sureness)    
+- [x] RESTsecure integration Session sample [sureness-session](samples/sureness-session)    
+- [x] RESTsecure integration Redis Session cache sample [sureness-redis-session](samples/sureness-redis-session)  
 - [x] More samples todo  
 
 ## 🔨 Quick Start 
@@ -228,23 +220,10 @@ Components of Repository:
 
 See [CONTRIBUTING](CONTRIBUTING.md)    
 
-#### 💪 Why Is High Performance  
+#### 💪 High Performance  
 
 ![pathRoleMatcher](docs/_images/PathRoleMatcher.svg)  
 
-## 🌞 Friend's Links   
-
-* **```JustAuth```** A Java library of third-party authorized login: [Github](https://github.com/justauth/JustAuth)    
-* **```MaxKey```** Leading-Edge Enterprise-Class open source IAM Identity and Access management product: [Github](https://github.com/dromara/MaxKey)   
-* **```PhalApi```** PHP Api Framework: [Website](https://www.phalapi.net/)    
-
-## 💬 Join discussion    
-
-[Github Discussion](https://github.com/usthe/sureness/discussions)          
-[Gitter Channel](https://gitter.im/usthe/sureness)   
-QQ Group：390083213        
-Dromara 社区微信公众号: gh_7eeb0b1b7476      
-Sureness 微信公众号：sureness   
 
 
 
